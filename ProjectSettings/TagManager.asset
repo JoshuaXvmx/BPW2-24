@@ -57,6 +57,9 @@ TagManager:
   - name: 2ndplant
     uniqueID: 3841025171
     locked: 0
+  - name: effects
+    uniqueID: 2713682747
+    locked: 0
   - name: sky
     uniqueID: 3449133665
     locked: 0
