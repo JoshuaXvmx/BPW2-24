@@ -7,9 +7,10 @@ public class TheSun : MonoBehaviour
     // Start is called before the first frame update
     public GameObject Daytime;
     public GameObject Nighttime;
+    private Animator Ani;
     void Start()
     {
-        
+        Ani = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -20,6 +21,6 @@ public class TheSun : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Daytime.SetActive(true);
-        Nighttime.SetActive(false);
+        //Nighttime.SetActive(false);
     }
 }
